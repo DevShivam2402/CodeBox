@@ -1,0 +1,75 @@
+.background{
+    background: rgba(253, 253, 253, 0.911) ;
+    
+}
+.blog-container , .blogbox ,.blogbox h1{
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+.blog-container   h2{
+    color: rgb(124, 204, 236);
+    font-size: 1.3rem;
+}
+.blog-container p,li{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+.blog-container{
+    padding-left: 20rem !important;
+    padding-right: 20rem !important;
+    padding: 5rem;
+}
+.blog-box{
+    display: flex;
+    margin: auto;
+    /* border: 2px solid white; */
+    width: 80%;
+}
+.blogbox-container{
+    /* border: 2px solid red; */
+    padding: 5rem;
+}
+.blogbox-section{
+    /* border: 2px solid rgb(248, 248, 248); */
+    border-radius: 5px;
+    padding: 5rem;
+    /* display: flex; */
+    /* margin-left: 50rem; */
+    /* position: fixed;
+    z-index: -1; */
+    /* place-items: right; */
+}
+.artical-div{
+    border: 1px solid rgb(230, 230, 230);
+    padding: 25px 40px;
+    border-radius: 5px;
+}
+.artical-div:hover{
+    /* border: 1px solid white; */
+    
+    box-shadow: 1px 1px 20px #cccccc;
+}
+.artical-div h2{
+   color: var(--primary);
+}
+ .artical-div span{
+     font-size: 0.9rem;
+     font-weight: 600;
+}
+.blogbox{
+    margin: auto;
+  width: 50%;
+     background: #f3f3f3;
+  /* border: 1px solid white; */
+  border-radius: 8px;
+  padding: 20px;
+  
+    
+}
+ .blogbox:Hover{
+     
+    box-shadow: 1px 1px 20px #c4f2fd;
+ }
+.blogbox p{
+    font-size: 1rem;
+    color: rgb(2, 2, 2)};

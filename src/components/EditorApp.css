@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-pane {
+    background-color: hsl(225, 6%, 25%);
+    /* max-width: 40vh; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    width: 60vh;
+}
+.pane-2{
+    width:155vh;
+}
+/* .pane-1 {
+    display: block;
+    flex-grow: 1;
+        flex-basis: 0;
+        height: 93vh;
+    } */
+    .editorbox{
+    display: flex;
+    height: 93vh;
+    position: fixed;
+}
+.editor-container {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    height: 25vh;
+    max-height: 28vh;
+    flex-direction: column;
+    padding: .5rem;
+    background-color: hsl(225, 6%, 25%);
+    /* overflow-y: scroll; */
+}
+
+.editor-container.collapsed {
+    flex-grow: 0;
+    
+}
+
+.editor-container.collapsed .CodeMirror-scroll {
+    position: absolute;
+    overflow: hidden !important;
+}
+
+.expand-collapse-btn {
+    /* display: none; */
+    margin-left: .5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.editor-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 6%, 13%);
+    color: white;
+    padding: .5rem .5rem .5rem 1rem;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+.CodeMirror {
+    height: 100% !important;
+}
+
+.code-mirror-wrapper {
+    /* flex-grow: 1; */
+    border-bottom-right-radius: .5rem !important;
+    border-bottom-left-radius: .5rem !important;
+    /* overflow: hidden; */
+    overflow-y: scroll; 
+}
+
+
+
+
+
+
+.about-container{
+    background: rgb(255, 255, 255);
+    /* height: 100vh; */
+    color: rgb(0, 0, 0);
+}
+.about{
+    display: flex;
+    /* padding: 20px; */
+}
+.about .left{
+    width: 100%;
+}
+.about-info{
+    padding: 30px !important;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 30vh;
+    justify-items: center;
+}
+.about-info strong{
+    /* background: rgb(92, 92, 92); */
+    color: rgb(34, 192, 255) !important;
+}
+.about-info h1{
+    font-size: 3rem;
+    font-family: 'Teko',
+            sans-serif;
+}
+.about strong{
+    color: rgb(0, 140, 255);
+    font-size: 1.8rem;
+}
+.about-center{
+    margin-left: 60px;
+    margin-top: 0px;
+}
+.about p{
+    font-size: 1.5rem;
+    justify-items: center;
+}
+.about-left{
+    padding: 20px;
+    width: 30%;
+    margin: 20px;
+}
+
+.about-right{
+    width: 60%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.about-devinfo{
+    display: flex;
+}
+.devinfo{
+    padding: 30px;
+        margin: 20px;
+        width: 50%;
+        background: yellow;
+        color: black;
+        border-radius: 3px;
+}
+.devinfo h1{
+    
+        color: var(--primary);
+}
+.devinfo:hover{
+    
+        background: rgb(0, 58, 85);
+        color: rgb(255, 255, 255);
+}
